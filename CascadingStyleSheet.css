@@ -1,0 +1,55 @@
+
+@import 'https://fonts.googleapis.com/css?family=Oxygen';
+ul {
+    list-style-type: none;
+    padding: 1px;
+    overflow: hidden;
+    background-color: #333300;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 22px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #330000;
+}
+nav, nav ul {
+    top: 0;
+    margin: auto;
+}
+body {
+    background-color: #66CCCC;
+    padding: 0;
+}
+main {
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: white;
+    width: 80vw;
+    margin-left: 10vw;
+    min-height: 100vh;
+    color: black;
+    border-radius: 6px;
+    font-family: 'Oxygen', sans-serif;
+}
+#HomeMain {
+    max-width: 75vw;
+    max-height: 75vh;
+    margin: 0.54vh;
+}
+#LegalMain {
+    max-width: 75vw;
+    max-height: 75vh;
+    margin: 0.54vh;
+}
+#SecurityMain {
+    max-width: 124vw;
+    max-height: 124vh;
+    margin: 0.54vh;
+}
